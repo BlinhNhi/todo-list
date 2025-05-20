@@ -39,9 +39,9 @@ To Do App là 1 trang web giúp quản lý công việc, quản lý thời gian 
     <img src="https://github.com/user-attachments/assets/1a2d6eba-5b2f-48c9-9164-7fc426380aad" width="700px" height="400px" alt="HomePage">
 
     <h3>Dark Mode</h3>
-    <img src="https://github.com/user-attachments/assets/c6ef867e-e725-471b-93ae-ef028940e3c" width="700px" height="400px" alt="Dark">
-    <img src="https://github.com/user-attachments/assets/1a2d6eba-5b2f-48c9-9164-7fc426380aad" width="700px" height="400px" alt="Light">
-    
+    <img src="https://github.com/user-attachments/assets/b124016c-2e21-4068-8459-a5cff8e0b6c0" width="700px" height="400px" alt="Light">
+    <img src="https://github.com/user-attachments/assets/b706f45b-ca76-4307-a1a5-66369362b9c3" width="700px" height="400px" alt="Dark">
+
     <h3>Kiểm tra nhập liệu</h3>
     <img src="https://github.com/user-attachments/assets/86f2da21-d2a9-47b6-91cd-c9cb822ed024" width="700px" height="400px" alt="CheckValid">
 
