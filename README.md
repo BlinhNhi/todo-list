@@ -10,6 +10,7 @@ To Do App là 1 trang web giúp quản lý công việc, quản lý thời gian 
 - Cài Đặt NodeJS
     - Cài Đặt dependencies
     - Vào terminal chạy lệnh:
+      
         $ npm i : install các thư viện.
         $ npm start: khởi động chương trình.
       ```bash
@@ -32,6 +33,8 @@ To Do App là 1 trang web giúp quản lý công việc, quản lý thời gian 
        -   Redux : Dùng để quản lý state.
        -   localStorage : Dùng để lưu dữ liệu.
        -   Tailwindcss : Dùng để xây dựng giao diện người dùng.
+       -   Vercel : Dùng để deploy trang web.
+  
   
   ## Screenshots:
   - WEBSITE:
