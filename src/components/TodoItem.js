@@ -72,7 +72,7 @@ function TodoItem({ todo }) {
                     </>
                 ) : (
                     <>
-                        <button onClick={() => dispatch(startEditing(todo.id))} className="text-green-500 px-1 sm:p-2 bg-green-500 text-gray-100 rounded-md hover:bg-green-500/80">Sửa</button>
+                        <button onClick={() => dispatch(startEditing(todo.id))} className=" px-1 sm:p-2 bg-green-500 text-gray-100 rounded-md hover:bg-green-500/80">Sửa</button>
                         <button onClick={() => dispatch(deleteTodo({ id: todo.id, content: todo.content }))} className="px-1 sm:p-2 bg-red-500 text-gray-100 rounded-md hover:bg-red-500/80">Xoá</button>
                     </>
                 )}
