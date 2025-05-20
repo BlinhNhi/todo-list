@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# To Do App
+To Do App là 1 trang web giúp quản lý công việc, quản lý thời gian 1 cách hiệu quả. Với To Do App bạn có thể:
++ Thêm công việc 1 cách dễ dàng với nội dung công việc và ngày hoàn thành công việc.
++ Dễ dàng xoá, sửa công việc nhanh chóng.
++ Dễ quản lý ngày hoàn thành công việc nếu công việc > 2 ngày mà chưa hoàn thành sẽ báo đỏ ngày hoàn thành giúp bạn dễ dàng quản lý thời gian.
++ Kéo thả công việc nào ưu tiên làm trước và sau.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Các Bước Chạy Chương Trình
+- Cài Đặt IDE( Visual Studio Code , Laragon,Postman...)
+- Cài Đặt NodeJS
+    - Cài Đặt dependencies
+    - Vào terminal chạy lệnh:
+        $ npm i : install các thư viện.
+        $ npm start: khởi động chương trình.
+      ```bash
+      $ npm i
+      $ npm start
+      ```
+      
+  ## Chức Năng :
+      - Thêm, sửa, xoá công việc.
+      - Kéo thả để thay đổi thứ tự công việc.
+      - Lọc danh sách: Tất cả / Hoàn thành / Chưa hoàn thành.
+      - Dark mode.
+      - Deadline hoặc ngày tạo công việc.
+      - Kiểm tra nhập liệu: không cho phép nhập giá trị rỗng, báo lỗi.
+      -   …
+  
+  ## Công Nghệ:
+       -   ReactJS - là thư viện JavaScript phổ biến nhất để xây dựng giao diện người dùng (UI).
+       -   Node JS : là một nền tảng được xây dựng trên V8 JavaScript Engine – trình thông dịch thực thi mã JavaScript.
+       -   Redux : Dùng để quản lý state.
+       -   localStorage : Dùng để lưu dữ liệu.
+       -   Tailwindcss : Dùng để xây dựng giao diện người dùng.
+  
+  ## Screenshots:
+  - WEBSITE:
+    <h3>Trang Chủ:</h3>
+    <img src="https://github.com/user-attachments/assets/1a2d6eba-5b2f-48c9-9164-7fc426380aad" width="700px" height="400px" alt="HomePage">
 
-## Available Scripts
+    <h3>Dark Mode</h3>
+    <img src="https://github.com/user-attachments/assets/c6ef867e-e725-471b-93ae-ef028940e3c" width="700px" height="400px" alt="Dark">
+    <img src="https://github.com/user-attachments/assets/1a2d6eba-5b2f-48c9-9164-7fc426380aad" width="700px" height="400px" alt="Light">
+    
+    <h3>Kiểm tra nhập liệu</h3>
+    <img src="https://github.com/user-attachments/assets/86f2da21-d2a9-47b6-91cd-c9cb822ed024" width="700px" height="400px" alt="CheckValid">
 
-In the project directory, you can run:
+       
+    <h3>Kéo Thả</h3>
+    <img src="https://github.com/user-attachments/assets/a891795e-490f-4ab7-8f96-dcad772070ad" width="700px" height="400px" alt="Drag">
+    <img src="https://github.com/user-attachments/assets/4835809e-dca4-4b2c-9b93-d67f9309dc29" width="700px" height="400px" alt="Drag2">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+      
+  
