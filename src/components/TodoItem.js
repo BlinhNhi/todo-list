@@ -67,7 +67,7 @@ function TodoItem({ todo }) {
             <div className="flex gap-2">
                 {todo.isEditing ? (
                     <>
-                        <button onClick={handleSave} className="text-green-500 px-1 sm:p-2 bg-green-500 text-gray-100 rounded-md hover:bg-green-500/80">Lưu</button>
+                        <button onClick={handleSave} className="px-1 sm:p-2 bg-green-500 text-gray-100 rounded-md hover:bg-green-500/80">Lưu</button>
                         <button onClick={() => dispatch(cancelEditing(todo.id))} className="px-1 sm:p-2 bg-orange-500 text-gray-100 rounded-md hover:bg-orange-500/80">Huỷ</button>
                     </>
                 ) : (
